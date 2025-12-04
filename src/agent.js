@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const { ActivityTypes } = require("@microsoft/agents-activity");
 const { AgentApplication, MemoryStorage } = require("@microsoft/agents-hosting");
 const { AzureOpenAI, OpenAI } = require("openai");
